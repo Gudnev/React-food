@@ -70,7 +70,7 @@ function Recipe() {
                     ) : null}
                 </div>
             )}
-            <button className='btn' onClick={goBack}>
+            <button className='btn pink accent-3' onClick={goBack}>
                 Go Back
             </button>
         </>

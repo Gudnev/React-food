@@ -1,11 +1,40 @@
-body {
+@font-face {
+    font-family: "Onest";
+    src: url("/public/fonts/Onest-Regular.ttf") format("truetype");
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "Onest";
+    src: url("/public/fonts/Onest-Bold.ttf") format("truetype");
+    font-weight: 700;
+}
+
+/* body {
     margin: 0;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto',
         'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans',
         'Helvetica Neue', sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+} */
+
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
 }
+
+h1 {
+    font-family: "Onest", sans-serif;
+    font-weight: 700;
+}
+span, a, h3, li, label, p, h2, h4, h5, h6 {
+    font-family: "Onest", sans-serif;
+    font-weight: 400;
+}
+
+
 nav {
     padding: 0 1rem;
 }
